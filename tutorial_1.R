@@ -1,6 +1,6 @@
 # Introduction to data science with applications in R and git
 # University of Manchester 
-# Tutorial led by Tom Franklin, 06/02/2019
+# Tutorial led by Tom Franklin, 13/02/2019
 
 ####
 # Tutorial 1 Code ----
