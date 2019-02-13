@@ -1,6 +1,6 @@
 # Introduction to data science with applications in R and git
 # University of Manchester 
-# Tutorial led by Tom Franklin, 06/02/2019
+# Tutorial led by Tom Franklin, 13/02/2019
 
 ####
 # Tutorial 1 Code ----
@@ -48,7 +48,7 @@ selected_data_1 <- raw_data %>%
 
 # i. Select Age and Sex columns only 
 selected_data_2 <- raw_data %>%
-  dplyr::select(Age, Sex)
+  dplyr::filter(Age == 2)
 
 # ii. Select all data apart from the Survived column
 selected_data_3 <- raw_data %>%
