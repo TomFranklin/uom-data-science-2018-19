@@ -48,7 +48,7 @@ selected_data_1 <- raw_data %>%
 
 # i. Select Age and Sex columns only 
 selected_data_2 <- raw_data %>%
-  dplyr::select(Age, Sex)
+  dplyr::filter(Age == 2)
 
 # ii. Select all data apart from the Survived column
 selected_data_3 <- raw_data %>%
